@@ -78,3 +78,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background: rgba(93,131,255,0.5);
 }
 
+h4 {
+  color: white!important;
+  text-shadow: 0px 0px 20px rgb(0,0,0);
+}
+
+p {
+  text-shadow: 0px 0px 20px rgb(0,0,0);
+}
+
