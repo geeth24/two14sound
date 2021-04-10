@@ -1,0 +1,80 @@
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #ffffff!important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #5d83ff;
+}
+
+#mainNav {
+  background-color: #000000!important;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #000000!important;
+  border-color: #000000!important;
+  color: #fff;
+}
+
+::selection {
+  background: #5d83ff!important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgb(93,131,255);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #212529;
+  background-color: #5d83ff!important;
+  border-color: #5d83ff!important;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #5d83ff!important;
+  border-color: #5d83ff!important;
+  color: #fff;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #5d83ff!important;
+  border-color: #5d83ff!important;
+  color: #fff;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #212529;
+  background-color: #5d83ff;
+  border-color: #5d83ff;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(93,131,255,0.5)!important;
+}
+
+a:hover {
+  /*color: #5d83ff!important;*/
+}
+
+a {
+  color: #5d83ff!important;
+}
+
+a:hover {
+  color: #5d83ff!important;
+  text-decoration: underline;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: rgba(93,131,255,0.5);
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all .5s ease;
+  opacity: 0;
+  background: rgba(93,131,255,0.5);
+}
+
